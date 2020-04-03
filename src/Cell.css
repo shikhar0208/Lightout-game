@@ -1,10 +1,17 @@
 .Cell {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   background-color: #263238;
   transition: background-color 0.7s ease;
 }
 
 .Cell-lit {
   background-color: #00bcd4;
+}
+
+@media (min-width: 750px){
+  .Cell {
+    height: 80px;
+    width: 80px;
+  }
 }
